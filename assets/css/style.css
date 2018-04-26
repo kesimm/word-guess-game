@@ -1,0 +1,57 @@
+body {
+    background-color:lightgray;
+    text-align: center;
+    font-family: 'Gaegu', cursive;
+}
+
+
+.wrappper{
+    width:100%;
+    margin:0 auto;
+  }
+  
+  canvas{
+    color:white;
+    border: white dashed 2px;
+    padding:15px;
+    background-color: gray;
+  }
+
+  button{
+    color:white;
+    border: solid 1px black;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px;
+    outline: none;
+  }
+
+  #my-word li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    padding: 0 10px;
+    font-size:1.6em;
+  }
+
+  #alphabet {
+    margin:15px auto;
+    padding:0;
+    max-width:900px;
+  }
+
+  #alphabet li {
+    float:left;
+    margin: 0 10px 10px 0;
+    list-style:none;
+    width:35px;
+    height:30px;
+    padding-top:10px;
+    background:white;
+    cursor:pointer;
+    border: solid 1px white;
+  }

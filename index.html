@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Guess the Pokemon</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Gaegu" type="text/css">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  </head>
+  <body>
+      <div class="container">
+
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container text-center">
+                  <h1 class="display-4">Guess the Pokemon</h1>
+                  <p class="lead">Guess a letter by clicking the buttons!</p>
+                </div>
+              </div>
+        
+        <div class="row">
+            <div class= "col-6">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/question_mark.png" alt="question mark">
+                    <div class="card-body">
+                      <p class="card-text">Which pokemon am I thinking of?</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-6">
+                <div class="row">
+                                 
+                </div>  
+                <div class="row">
+                <!--this is where the actual game is going to go-->
+               
+                    <div class="wrapper">
+                        <p id="catagoryName"></p>
+                        <div id="buttons">
+                        </div>  
+                        <div id="hold">
+                        </div>
+                        <p id="mylives"></p>
+                        <canvas id="stickman"></canvas>
+                        <div class="container">
+                            <button id="reset">Play again</button>
+                        </div>
+                    </div>
+                </div>
+              
+
+            </div>
+
+        </div>
+    
+       </div>
+       <script src="assets/javascript/game.js"></script>
+  </body>
+</html>
